@@ -1,6 +1,39 @@
 @font-face {
     font-family: 'CRILLEE';
-    src: url('CRILLEE.TTF');
+    src: url('CRILLEE-regular.eot');
+    src: url('CRILLEE-regular.eot?#iefix') format('embedded-opentype'),
+         url('CRILLEE-regular.woff') format('woff'),
+         url('CRILLEE.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'CRILLEE';
+    src: url('CRILLEE-italic.eot');
+    src: url('CRILLEE-italic.eot?#iefix') format('embedded-opentype'),
+         url('CRILLEE-italic.woff') format('woff'),
+         url('CRILLEE-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CRILLEE';
+    src: url('CRILLEE-semibold.eot');
+    src: url('CRILLEE-semibold.eot?#iefix') format('embedded-opentype'),
+         url('CRILLEE-semibold.woff') format('woff'),
+         url('CRILLEE-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CRILLEE';
+    src: url('CRILLEE-semibolditalic.eot');
+    src: url('CRILLEE-semibolditalic.eot?#iefix') format('embedded-opentype'),
+         url('CRILLEE-semibolditalic.woff') format('woff'),
+         url('CRILLEE-semibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
 }
